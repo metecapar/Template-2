@@ -1,0 +1,254 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="../public/css/products.css">
+
+    <link rel="stylesheet" href="../public/css/buyproduct.css">
+    <link rel="stylesheet" href="../public/css/product-detail.css">
+    <link rel="stylesheet" href="../public/css/details.css">
+
+    <link rel="stylesheet" href="../owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../owlcarousel/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+
+    <div class="navbar navbar-disable" id="navbar">
+        <div class="nav-container">
+            <div class="navbar-content topnav" id="myTopnav">
+                <div class="brand-btn">
+                    <a href="#">
+                        <img src="../public/images/ITdropshop.png" alt="">
+                    </a>
+                </div>
+                <div class="menu">
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="las la-bars"></i>
+                    </a>
+                    <a href="#" class="btn">Home</a>
+                    <a href="#" class="btn active">Products</a>
+                    <a href="#" class="btn">Stores</a>
+                    <a href="#" class="btn">Contact us</a>
+                    <a href="#" class="btn line-aw"><i class="las la-user"></i>Profile</a>
+                    <a href="#" class="btn line-aw"><i class="las la-inbox"></i>Inbox</a>
+                    <a href="#" class="btn line-aw"><i class="las la-shopping-cart"></i>Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#" class="btn">Home</a>
+            <a href="#" class="btn">Products</a>
+            <a href="#" class="btn">Stores</a>
+            <a href="#" class="btn">Contact us</a>
+            <a href="#" class="btn line-aw nav-2"><i class="las la-user"></i>Profile</a>
+            <a href="#" class="btn line-aw nav-2"><i class="las la-inbox"></i>Inbox</a>
+            <a href="#" class="btn line-aw nav-2"><i class="las la-shopping-cart"></i>Cart</a>
+        </div>
+    </div>
+
+
+    <div class="container-all">
+        <div class="container-between-2">
+            <div class="container-left-all">
+                <div id="sync1" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="../public/images/iphone11.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../public/images/iphone-11.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../public/images/iphone12.jpg" alt="">
+                    </div>
+                </div>
+
+                <div id="sync2" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="../public/images/iphone11.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../public/images/iphone-11.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../public/images/iphone12.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container-all-right">
+                <div class="product-name-container">
+                    <div class="product-name-point">
+                        <div class="product-name">
+                            <h3>iPhone 11</h3>
+                        </div>
+                        <div class="product-pointa">
+                            <div class="product-point">
+                                <img src="../public/images/Vector.png" alt="">
+                                <strong>5.0</strong>
+                                <span>
+                                    (128 reviews)
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="store-name-soft">
+                        <p>APPLE STORE</p>
+                    </div>
+                    <div class="delivery-knowladge">
+                        <div class="product-content-2">
+                            <span> <i class="las la-truck"></i> Delivery cost: £ 0.51 </span>
+                        </div>
+                    </div>
+                    <div class="product-detail">
+                        <h3>Product Detail</h3>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer
+                            took a galley of type and scrambled it to make a type specimen book</p>
+                    </div>
+
+                    <div class="return-policy">
+                        <h6>Return Policy</h6>
+                        <p>Return accepted with no physical damage in 2 week.</p>
+                    </div>
+
+
+
+                    <div class="price-cart-button-container">
+                        <div class="price">
+                            <strong>£729</strong>
+                        </div>
+                        <div class="price-cart-button">
+                            <a href="#"><i class="las la-plus"></i>Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container-tabs">
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'featured-products')" id="defaultOpen">Featured
+                            Products</button>
+                        <button class="tablinks" onclick="openCity(event, 'reviews')">Reviews</button>
+                    </div>
+                    <div id="featured-products" class="tabcontent">
+                        <div class="stores-products">
+                            <div class="stores-product">
+                                <div class="stores-product-1">
+                                    <img src="../public/images/product-2.png" alt="">
+                                    <span>Sony PlayStation 4 Slim</span>
+                                </div>
+                                <div class="stores-product-1">
+                                    <img src="../public/images/product-2.png" alt="">
+                                    <span>Sony PlayStation 4 Slim</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="reviews" class="tabcontent">
+                        <div class="stores-reviews">
+                            <div class="reviews">
+                                <div class="star-top">
+                                    <h6>Jane</h6>
+                                    <span>Jun 16, 2020</span>
+                                </div>
+                                <div class="rating">
+                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                </div>
+                                <div class="review">
+                                    <p>The best Apple Store in the world!</p>
+                                </div>
+                            </div>
+                            <div class="reviews">
+                                <div class="star-top">
+                                    <h6>Jane</h6>
+                                    <span>Jun 14, 2020</span>
+                                </div>
+                                <div class="rating">
+                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                </div>
+                                <div class="review">
+                                    <p>
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        when
+                                        an
+                                        unknown
+                                        printer took a galley
+                                        of type and scrambled it to make a type specimen book
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-top">
+        <div class="footer">
+            <div class="help-info">
+                <h2>Help & Information</h2>
+                <div class="help-info-out">
+                    <a href="">About</a>
+                    <a href="">Privacy Policy</a>
+                </div>
+                <div class="help-info-in">
+                    <a href="">Support</a>
+                    <a href="">Terms & Conditions</a>
+                </div>
+            </div>
+            <div class="contact-us">
+                <h2>Contact Us</h2>
+                <div class="mail-adres">
+                    <a><i class="lar la-envelope"></i>info@ITdropshop.com</a> </div>
+                <div class="adres">
+                    <a><i class="las la-map-marker"></i>86-90 Paul Street, London, England, EC2A 4NE</a> </div>
+            </div>
+            <div class="follow-us">
+                <h2>Follow Us</h2>
+                <div class="social-media">
+                    <img src="../public/images/linkedin.png" alt="">
+                    <img src="../public/images/facebook.png" alt="">
+                    <img src="../public/images/instagram.png" alt="">
+                    <img src="../public/images/twitter.png" alt="">
+                </div>
+            </div>
+            <div class="play-stores">
+                <a class="playstore-first" href=""><img src="../public/images/googleplay.png" alt=""></a>
+                <a href=""> <img src="../public/images/appstore.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="../owlcarousel/owl.carousel.min.js"></script>
+
+
+    <script src="../public/js/products.js"></script>
+    <script src="../public/js/product-detail.js"></script>
+
+
+</body>
+
+</html>

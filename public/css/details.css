@@ -1,0 +1,375 @@
+* {
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+
+.product-reviews-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-all {
+    margin: 0 auto;
+    max-width: 1440px;
+    margin-top: 60px;
+}
+
+.container-between {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stores-name-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.appointment {
+    background: #3485E8;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px 35px;
+}
+
+.stores-name-img img {
+    border-radius: 24px;
+    width: 100%;
+    padding: 0 3px;
+}
+
+p {
+    width: 480px;
+}
+
+.chat {
+    background: #FFFFFF;
+    border: 1px solid #3485E8;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #3485E8;
+    padding: 13px 87px;
+    margin-left: 20px;
+}
+
+.stores-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.stores-product-1 {
+    border: 1px solid #E5E5E5;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px;
+
+}
+
+.reviews {
+    border-bottom: 0.5px solid #C4C4C4;
+    margin-bottom: 30px;
+}
+
+.review p {
+    margin: 30px 0;
+}
+
+.stores-product-1 img {
+    padding: 15px;
+}
+
+.stores-product-1 span {
+    padding-bottom: 25px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 50px;
+    transition: 0.3s;
+    font-size: 17px;
+    flex: 1;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    border-bottom: 3px solid #3485E8;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+
+.tablinks {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+
+.tablinks.active {
+    font-weight: bold;
+}
+
+.reviews span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: block;
+    text-align: right;
+}
+
+.reviews h6 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+    color: #000000;
+}
+
+.reviews p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.review p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+
+.products-all span {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.about-product h3 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.buttons-container a {
+    height: 48px;
+}
+
+.products-all h3 {
+    margin: 26px 0;
+    font-size: 32px;
+}
+
+.about-product h3 {
+    margin: 26px 0;
+}
+
+.buttons-container {
+    margin-top: 94px;
+    padding: 0 10px;
+
+}
+
+.stores-name-text {
+    margin-left: 26px;
+}
+
+.stores-name-text h3 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 41px;
+    margin-bottom: 25px;
+}
+
+.stores-name-text i {
+    font-size: 20px;
+}
+
+.product-point {
+    margin: 30px 0;
+
+}
+
+.product-point strong {
+    margin-right: 20px;
+}
+
+.product-point span {
+    font-weight: 300;
+}
+
+.stores-name-text span {
+    color: #C4C4C4;
+}
+
+.container-tabs {}
+
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.rating>span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+    color: #FBD242;
+}
+
+.rating>span:hover:before,
+.rating>span:hover~span:before {
+    content: "\2605";
+    position: absolute;
+}
+
+.reviews h6 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+    color: #000000;
+}
+
+.buttons-container {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1070px) {
+
+    .container-between {
+        display: grid;
+    }
+
+    .container-midline {
+        margin-bottom: 70px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .buttons-container {
+        display: grid;
+    }
+
+    .appointment {
+        margin-bottom: 40px;
+    }
+
+    .tabcontent {
+        padding: 0 15px;
+
+    }
+
+    .chat {
+        margin-left: 0;
+    }
+
+    .stores-name-text h3 {
+        margin-top: 20px;
+    }
+
+    .products-all img {
+        padding: 0 3px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .stores-product {
+        grid-template-columns: 1fr;
+    }
+
+    .stores-name-container {
+        display: grid;
+        justify-content: center;
+    }
+
+    .products-all h3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .products-all {
+        padding-left: 5px;
+    }
+
+    .about-product h3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-product p {
+        padding-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    p {
+        width: 350px;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    p {
+        width: 300px;
+    }
+
+
+}
+
+.star-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
